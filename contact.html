@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="https://kit.fontawesome.com/332a215f17.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css?family=Baloo+Chettan+2:400,700&display=swap" rel="stylesheet">
+    <title>Responsive Form</title>
+</head>
+<body>
+
+    <!--Nav bar-->
+   
+    <div class="dropdwn">
+        <nav>
+            <img class="logo" src="images/logo1.png">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#">Menu <i class="fas fa-caret-down"></i></a>
+                    <ul>
+                        <li><a href="#">NonVeg</a></li>
+                        <li><a href="#">Veg</a></li>
+                        <li><a href="#">Snacks</a></li>
+                    </ul>
+                </li>
+                <li><a href="aboutus.html">About Us</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </div>
+    <!--End of Nav bar-->
+
+
+
+
+
+    <section id="contact-section">
+        <div class="container">
+            <h2>Contact Us</h2>
+                <p>Email us and keep up to date with latest news</p>
+                <div class="contact-form">
+                    <!--first grid-->
+                    <div>
+                        <i class="fa fa-map-marker"></i><span class="form-info">10/323-1,Nagavarappadu</span><br>
+                        <i class="fas fa-phone"></i><span class="form-info">Phone No +91 7981162142</span><br>
+                        <i class="fas fa-envelope"></i><span class="form-info">ravitejadimmiti99@gmail.com</span>
+                    </div>
+                    
+                    <!--second grid-->
+
+                    <div>
+                        <form>
+                            <input type="text" placeholder="first Name" required>
+                            <input type="text" placeholder="Last Name" required>
+                            <input type="Email" placeholder="Email" required>
+                            <input type="text" placeholder="Subject of the message" required>
+                            <textarea name="message" placeholder="Message" rows="5" required></textarea>
+                            <button class="submit">Send Message</button>
+                        </form>
+                    </div>
+                </div>
+        </div>
+    </section>
+</body>
+</html>
